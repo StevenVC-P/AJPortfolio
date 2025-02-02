@@ -1,0 +1,78 @@
+/* src/components/Gallery.css */
+.gallery {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 20px;
+  background-color: #1d595e; /* Light background */
+  padding: 20px;
+  width: 70%; /* Ensure the gallery takes up 70% of the width */
+  box-sizing: border-box;
+}
+
+.art-piece {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s;
+  max-width: 250px;
+  max-height: 250px; /* Limit the height */
+  text-align: center;
+  background-color: #32292f; /* Light teal background */
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.art-piece:hover {
+  transform: scale(1.05);
+}
+
+.art-piece img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.art-piece h3 {
+  position: static;
+  margin-top: 10px;
+  color: #99e1d9; /* Dark text color */
+  background-color: transparent;
+  padding: 0;
+  border-radius: 0;
+}
+
+.lightbox {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 30%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  overflow: auto;
+}
+
+.lightbox img {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .gallery {
+    justify-content: center; /* Center art pieces horizontally */
+    width: 100%; /* Use full width on smaller screens */
+  }
+
+  .lightbox {
+    width: 100%;
+    height: 100%;
+  }
+}
