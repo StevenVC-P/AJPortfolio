@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/AJPortfolio/static/css/main.a82dc1c5.css",
-    "main.js": "/AJPortfolio/static/js/main.6ba3bea0.js",
+    "main.css": "/AJPortfolio/static/css/main.6fcd50fe.css",
+    "main.js": "/AJPortfolio/static/js/main.25edbfd6.js",
     "static/js/453.5878c9f9.chunk.js": "/AJPortfolio/static/js/453.5878c9f9.chunk.js",
     "static/media/WoodTurtle2.png": "/AJPortfolio/static/media/WoodTurtle2.85c7569d2b90d31c3909.png",
     "static/media/WoodTurtle.png": "/AJPortfolio/static/media/WoodTurtle.187d91187d17d7572bdf.png",
@@ -12,12 +12,12 @@
     "static/media/index.cjs": "/AJPortfolio/static/media/index.3799a449eaa3633df8f4.cjs",
     "static/media/logo.svg": "/AJPortfolio/static/media/logo.6ce24c58023cc2f8fd88.svg",
     "index.html": "/AJPortfolio/index.html",
-    "main.a82dc1c5.css.map": "/AJPortfolio/static/css/main.a82dc1c5.css.map",
-    "main.6ba3bea0.js.map": "/AJPortfolio/static/js/main.6ba3bea0.js.map",
+    "main.6fcd50fe.css.map": "/AJPortfolio/static/css/main.6fcd50fe.css.map",
+    "main.25edbfd6.js.map": "/AJPortfolio/static/js/main.25edbfd6.js.map",
     "453.5878c9f9.chunk.js.map": "/AJPortfolio/static/js/453.5878c9f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a82dc1c5.css",
-    "static/js/main.6ba3bea0.js"
+    "static/css/main.6fcd50fe.css",
+    "static/js/main.25edbfd6.js"
   ]
 }
