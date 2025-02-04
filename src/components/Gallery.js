@@ -19,7 +19,7 @@ const Gallery = () => {
       {artPieces.map((piece, index) => (
         <div key={index} className="art-piece" onClick={() => openLightbox(piece.imageUrl)}>
           <img src={require(`../${piece.imageUrl}`)} alt={piece.title} />
-          <h3 className="art-piece-title">{piece.title}</h3>
+          <h3 className="art-piece-title glow">{piece.title}</h3>
         </div>
       ))}
 

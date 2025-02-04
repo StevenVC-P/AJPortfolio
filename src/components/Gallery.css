@@ -76,3 +76,7 @@
     height: 100%;
   }
 }
+
+.glow {
+  text-shadow: 0 0 5px #67c46e, 0 0 10px #67c46e, 0 0 20px #67c46e;
+}
