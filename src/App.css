@@ -51,9 +51,8 @@
 }
 
 .credits {
+  text-align: left; /* Align text to the left */
   padding: 20px;
-  text-align: center;
-  border-top: 1px solid #000000;
 }
 
 .credits h2 {
@@ -66,6 +65,31 @@
   font-size: 1em;
 }
 
+.credits ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0;
+  display: flex; /* Use flexbox for horizontal layout */
+  flex-wrap: wrap; /* Allow wrapping if needed */
+  justify-content: flex-start; /* Align items to the left */
+}
+
+.credits li {
+  margin: 0 10px; /* Add horizontal spacing between items */
+  font-size: 1.2em;
+  color: #fff; /* Adjust color as needed */
+}
+
+.credits a {
+  color: #ffcc00; /* Bright yellow color for better contrast */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold; /* Make the text bold */
+  transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.credits a:hover {
+  color: #ff9900; /* Slightly darker yellow on hover */
+}
+
 body {
-  font-family: 'Dancing Script', cursive; /* Apply Dancing Script font */
+  font-family: "Dancing Script", cursive; /* Apply Dancing Script font */
 }
