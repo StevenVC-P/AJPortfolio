@@ -19,9 +19,11 @@
 
 .App-header {
   background-color: #143109; /* Dark background */
-  padding: 20px;
-  text-align: center;
+  padding: 20px; /* Adjust padding if needed */
   color: #f0f7f4; /* Light text color */
+  display: flex; /* Use flexbox for alignment */
+  align-items: center; /* Center items vertically */
+  justify-content: space-around; /* Space out items evenly */
 }
 
 .App-header h1 {
@@ -92,4 +94,12 @@
 
 body {
   font-family: "Dancing Script", cursive; /* Apply Dancing Script font */
+}
+
+.logo {
+  width: 100px; /* Adjust the size as needed */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  border: 2px solid rgba(255, 255, 255, 0.2); /* Light border to blend with background */
 }
