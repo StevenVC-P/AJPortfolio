@@ -1,7 +1,18 @@
 /* src/components/Gallery.css */
+.gallery-container {
+  display: flex;
+  flex-direction: row; /* Arrange children in a row */
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
 .gallery {
   flex: 1;
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: flex-start;
   gap: 20px;
@@ -79,4 +90,41 @@
 
 .glow {
   text-shadow: 0 0 5px #67c46e, 0 0 10px #67c46e, 0 0 20px #67c46e;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.tabs button {
+  background-color: #143109;
+  color: #f0f7f4;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tabs button:hover:not(.active) {
+  background-color: #1d595e;
+  box-shadow: 0 0 10px #67c46e, 0 0 20px #67c46e;
+}
+
+.tabs button:focus {
+  outline: none;
+  background-color: #1d595e;
+}
+
+.tabs button.active {
+  background-color: #32292f;
+  color: #f0f7f4;
+  cursor: default;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Maintain shadow for button effect */
+  border: 2px solid #32292f; /* Add a border to highlight the active tab */
 }
