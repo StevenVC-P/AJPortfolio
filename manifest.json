@@ -3,17 +3,17 @@
   "name": "Create React App Sample",
   "icons": [
     {
-      "src": "Opal.ico",
+      "src": "AJLogo.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "Opal.png",
+      "src": "AJLogo.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "Opal.png",
+      "src": "AJLogo.png",
       "type": "image/png",
       "sizes": "512x512"
     }
