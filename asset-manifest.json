@@ -1,28 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.d796cd9f.css",
-    "main.js": "/static/js/main.ef0ca5e3.js",
+    "main.css": "/static/css/main.739fd760.css",
+    "main.js": "/static/js/main.082000c0.js",
     "static/js/453.5878c9f9.chunk.js": "/static/js/453.5878c9f9.chunk.js",
     "static/media/WoodTurtle2.png": "/static/media/WoodTurtle2.85c7569d2b90d31c3909.png",
     "static/media/WoodTurtle.png": "/static/media/WoodTurtle.187d91187d17d7572bdf.png",
-    "static/media/Gloves.png": "/static/media/Gloves.82be70ffa4409f55c68c.png",
+    "static/media/Hands.png": "/static/media/Hands.82be70ffa4409f55c68c.png",
     "static/media/AJLogo.png": "/static/media/AJLogo.a9dd53652c22002ea2a3.png",
     "static/media/OpalMutantMayhem.png": "/static/media/OpalMutantMayhem.5651f41fcb9b268d18fe.png",
+    "static/media/dragon.png": "/static/media/dragon.514c424b825561384687.png",
     "static/media/OpalHuman.png": "/static/media/OpalHuman.ed743d0a8d5e078210c1.png",
     "static/media/Eyes.png": "/static/media/Eyes.5c91cc16e1b224595efd.png",
-    "static/media/OpalBeauty.png": "/static/media/OpalBeauty.58b3086ea660aaf9971d.png",
     "static/media/Aria.png": "/static/media/Aria.332f0a8bb20de1b3ddc0.png",
     "static/media/Opal2012.png": "/static/media/Opal2012.ead89492f45b3f5045e3.png",
     "static/media/index.cjs": "/static/media/index.6cc1b11a234f6e065e45.cjs",
-    "static/media/Opal.png": "/static/media/Opal.ca66ec20765835121706.png",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88.svg",
     "index.html": "/index.html",
-    "main.d796cd9f.css.map": "/static/css/main.d796cd9f.css.map",
-    "main.ef0ca5e3.js.map": "/static/js/main.ef0ca5e3.js.map",
+    "main.739fd760.css.map": "/static/css/main.739fd760.css.map",
+    "main.082000c0.js.map": "/static/js/main.082000c0.js.map",
     "453.5878c9f9.chunk.js.map": "/static/js/453.5878c9f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d796cd9f.css",
-    "static/js/main.ef0ca5e3.js"
+    "static/css/main.739fd760.css",
+    "static/js/main.082000c0.js"
   ]
 }
