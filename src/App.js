@@ -1,12 +1,15 @@
 import React from "react";
 import "./App.css";
 import Gallery from "./components/Gallery";
+import AjLogo from "./artPieces/AJLogo.png"; // Ensure the correct path to the image
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <img src={AjLogo} alt="AJ Logo" className="logo" />
         <h1>Welcome to AJ's Art Portfolio</h1>
+        <img src={AjLogo} alt="AJ Logo" className="logo" />
       </header>
       <Gallery />
       <section className="credits">

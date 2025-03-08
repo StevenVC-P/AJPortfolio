@@ -18,9 +18,12 @@
 }
 
 .App-header {
+  display: flex;
+  justify-content: space-around;
   background-color: #143109; /* Dark background */
   padding: 20px;
   text-align: center;
+  align-items: center;
   color: #f0f7f4; /* Light text color */
 }
 
@@ -39,6 +42,14 @@
   text-align: center;
   padding: 10px;
   margin-top: auto;
+}
+
+.logo {
+    border: 2px solid #fff3;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px #0000001a;
+    height: auto;
+    width: 100px;
 }
 
 @keyframes App-logo-spin {

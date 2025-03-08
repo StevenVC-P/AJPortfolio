@@ -1,8 +1,18 @@
 /* src/components/Gallery.css */
+.gallery-container {
+  display: flex;
+  flex-direction: row; /* Arrange children in a row */
+  flex-wrap: wrap; /* Allow wrapping to the next line if needed */
+  justify-content: flex-start; /* Align items to the start of the container */
+  gap: 20px; /* Space between items */
+  width: 100%;
+  box-sizing: border-box;
+}
+
 .gallery {
   flex: 1;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: flex-start;
   gap: 20px;
   background-color: #1d595e; /* Light background */
@@ -79,4 +89,25 @@
 
 .glow {
   text-shadow: 0 0 5px #67c46e, 0 0 10px #67c46e, 0 0 20px #67c46e;
+}
+
+.tabs button {
+  background-color: #143109;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px #0000001a;
+  color: #f0f7f4;
+  cursor: pointer;
+  font-size: 1em;
+  margin: 0 5px;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tabs button.active {
+  background-color: #32292f;
+  border: 2px solid #32292f;
+  box-shadow: 0 4px 6px #0000001a;
+  color: #f0f7f4;
+  cursor: default;
 }
