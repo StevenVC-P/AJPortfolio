@@ -1,12 +1,6 @@
 // src/components/Gallery.js
 import React, { useState } from "react";
 import "./Gallery.css";
-<<<<<<< Updated upstream
-import artPieces from "../artPieces.json";
-
-const Gallery = () => {
-  const [selectedImage, setSelectedImage] = useState(null);
-=======
 import turtles from "../artPieces/Turtles.json";
 import sonic from "../artPieces/Sonic.json";
 import fantasy from "../artPieces/Fantasy.json";
@@ -14,7 +8,6 @@ import fantasy from "../artPieces/Fantasy.json";
 const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState(null);
   const [activeTab, setActiveTab] = useState("all");
->>>>>>> Stashed changes
 
   const openLightbox = (imageUrl) => {
     setSelectedImage(imageUrl);
@@ -24,17 +17,6 @@ const Gallery = () => {
     setSelectedImage(null);
   };
 
-<<<<<<< Updated upstream
-  return (
-    <div className="gallery">
-      {artPieces.map((piece, index) => (
-        <div key={index} className="art-piece" onClick={() => openLightbox(piece.imageUrl)}>
-          <img src={require(`../${piece.imageUrl}`)} alt={piece.title} />
-          <h3 className="art-piece-title glow">{piece.title}</h3>
-        </div>
-      ))}
-
-=======
   const renderImages = () => {
     let images;
     if (activeTab === "ninjaTurtles") {
@@ -72,7 +54,6 @@ const Gallery = () => {
         </button>
       </div>
       <div className="gallery-container">{renderImages()}</div>
->>>>>>> Stashed changes
       {selectedImage && (
         <div className="lightbox" onClick={closeLightbox}>
           <img src={require(`../${selectedImage}`)} alt="Selected Art" />
