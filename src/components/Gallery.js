@@ -4,6 +4,7 @@ import "./Gallery.css";
 import turtles from "../artPieces/Turtles.json";
 import sonic from "../artPieces/Sonic.json";
 import fantasy from "../artPieces/Fantasy.json";
+import characters from "../artPieces/Characters.json";
 
 const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState(null);
@@ -25,8 +26,10 @@ const Gallery = () => {
       images = sonic;
     } else if (activeTab === "fantasy") {
       images = fantasy;
+    } else if (activeTab === "characters") {
+      images = characters;
     } else {
-      images = [...turtles, ...sonic, ...fantasy]; // Combine all images for the "ALL" tab
+      images = [...turtles, ...sonic, ...fantasy, ...characters]; // Combine all images for the "ALL" tab
     }
 
     return images.map((piece, index) => (
@@ -51,6 +54,9 @@ const Gallery = () => {
         </button>
         <button className={activeTab === "fantasy" ? "active" : ""} onClick={() => setActiveTab("fantasy")}>
           Fantasy
+        </button>
+        <button className={activeTab === "characters" ? "active" : ""} onClick={() => setActiveTab("characters")}>
+          Characters
         </button>
       </div>
       <div className="gallery-container">{renderImages()}</div>
