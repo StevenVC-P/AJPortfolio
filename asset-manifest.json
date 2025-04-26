@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.739fd760.css",
-    "main.js": "/static/js/main.082000c0.js",
+    "main.js": "/static/js/main.84796593.js",
     "static/js/453.5878c9f9.chunk.js": "/static/js/453.5878c9f9.chunk.js",
     "static/media/WoodTurtle2.png": "/static/media/WoodTurtle2.85c7569d2b90d31c3909.png",
     "static/media/WoodTurtle.png": "/static/media/WoodTurtle.187d91187d17d7572bdf.png",
@@ -12,16 +12,19 @@
     "static/media/OpalHuman.png": "/static/media/OpalHuman.ed743d0a8d5e078210c1.png",
     "static/media/Eyes.png": "/static/media/Eyes.5c91cc16e1b224595efd.png",
     "static/media/Aria.png": "/static/media/Aria.332f0a8bb20de1b3ddc0.png",
+    "static/media/Angel.png": "/static/media/Angel.721f6ff46d376230b051.png",
     "static/media/Opal2012.png": "/static/media/Opal2012.ead89492f45b3f5045e3.png",
+    "static/media/Andi.png": "/static/media/Andi.9363a7f196f37a036262.png",
+    "static/media/Penhead.png": "/static/media/Penhead.97f679b70ce6ba4bc53e.png",
     "static/media/index.cjs": "/static/media/index.6cc1b11a234f6e065e45.cjs",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88.svg",
     "index.html": "/index.html",
     "main.739fd760.css.map": "/static/css/main.739fd760.css.map",
-    "main.082000c0.js.map": "/static/js/main.082000c0.js.map",
+    "main.84796593.js.map": "/static/js/main.84796593.js.map",
     "453.5878c9f9.chunk.js.map": "/static/js/453.5878c9f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.739fd760.css",
-    "static/js/main.082000c0.js"
+    "static/js/main.84796593.js"
   ]
 }
